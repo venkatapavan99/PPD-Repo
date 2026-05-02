@@ -3,14 +3,30 @@
 *FileVersion: "1.0"
 *LanguageEncoding: ISOLatin1
 *LanguageVersion: English
+
 *Manufacturer: "DemoPrinter"
-*Product: "(Demo PPD Printer)"
+*ModelName: "Demo Printer Model X"
+*Product: "(Demo Printer Model X)"
 *NickName: "Demo Printer PPD v1.0"
+*ShortNickName: "DemoPrinter"
 *PCFileName: "DEMO.PPD"
 
-*DefaultPageSize: A4
-*PageSize A4/A4: "<</PageSize[595 842]>>setpagedevice"
-*PageSize Letter/Letter: "<</PageSize[612 792]>>setpagedevice"
-
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
 *ColorDevice: True
 *DefaultColorSpace: RGB
+
+*DefaultPageSize: A4
+*DefaultPageRegion: A4
+*DefaultImageableArea: A4
+*DefaultPaperDimension: A4
+
+*PageSize A4/A4: "<</PageSize[595 842]>>setpagedevice"
+*PageRegion A4/A4: "<</PageSize[595 842]>>setpagedevice"
+*ImageableArea A4: "0 0 595 842"
+*PaperDimension A4: "595 842"
+
+*PageSize Letter/Letter: "<</PageSize[612 792]>>setpagedevice"
+*PageRegion Letter/Letter: "<</PageSize[612 792]>>setpagedevice"
+*ImageableArea Letter: "0 0 612 792"
+*PaperDimension Letter: "612 792"

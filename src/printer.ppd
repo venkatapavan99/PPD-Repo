@@ -1,0 +1,16 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*FileVersion: "1.0"
+*LanguageEncoding: ISOLatin1
+*LanguageVersion: English
+*Manufacturer: "DemoPrinter"
+*Product: "(Demo PPD Printer)"
+*NickName: "Demo Printer PPD v1.0"
+*PCFileName: "DEMO.PPD"
+
+*DefaultPageSize: A4
+*PageSize A4/A4: "<</PageSize[595 842]>>setpagedevice"
+*PageSize Letter/Letter: "<</PageSize[612 792]>>setpagedevice"
+
+*ColorDevice: True
+*DefaultColorSpace: RGB

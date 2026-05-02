@@ -11,8 +11,8 @@ if [ ! -f "$ARTIFACT" ]; then
 fi
 
 NEXUS_URL="http://13.217.210.104:8082/repository/ppd-drivers"
-USERNAME= "NEXUS_USERNAME"
-PASSWORD="NEXUS_PASSWORD"
+USERNAME=$NEXUS_USERNAME
+PASSWORD=$NEXUS_PASSWORD
 
 echo "🚀 Uploading artifact to Nexus..."
 

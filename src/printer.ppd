@@ -16,6 +16,10 @@
 *ColorDevice: True
 *DefaultColorSpace: RGB
 
+*LanguageLevel: "3"
+*ColorDevice: True
+*DefaultColorSpace: RGB
+
 *DefaultPageSize: A4
 *DefaultPageRegion: A4
 *DefaultImageableArea: A4

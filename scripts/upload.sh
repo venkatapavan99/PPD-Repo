@@ -3,7 +3,7 @@
 set -e
 
 VERSION=$(cat version.txt)
-ARTIFACT="build/ppd-driver-$VERSION.zip"
+ARTIFACT="build/Windows-Linux-PPD-$VERSION.zip"
 
 if [ ! -f "$ARTIFACT" ]; then
   echo "❌ Artifact not found!"
@@ -12,7 +12,7 @@ fi
 
 NEXUS_URL="http://13.217.210.104:8082/repository/ppd-drivers"
 USERNAME="admin"
-PASSWORD="<YOUR_PASSWORD>"
+PASSWORD="9989290832"
 
 echo "🚀 Uploading artifact to Nexus..."
 
